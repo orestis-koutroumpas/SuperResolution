@@ -50,4 +50,4 @@ In this problem, we reconstruct high-resolution images from noisy, low-resolutio
 ```pip install numpy scipy matplotlib```
 
 ### 3. Run the script:
-```python gan.py```
+```python super_resolution.py```
