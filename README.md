@@ -30,7 +30,7 @@ In this problem, we reconstruct high-resolution images from noisy, low-resolutio
 
 #### Cost Function vs. Iteration
 
-<p align="center"> <img src="results/cost.png" width="90%" height="90%" alt="Cost vs Iteration"> </p>
+<p align="center"> <img src="results/costs.png" width="90%" height="90%" alt="Cost vs Iteration"> </p>
 
 #### Reconstructed Images
 
