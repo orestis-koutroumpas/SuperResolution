@@ -20,7 +20,8 @@ In this problem, we reconstruct high-resolution images from noisy, low-resolutio
     - A pre-trained generative model is used to approximate the high-resolution input Xi.
     - Gradient Descent optimizes a latent variable Z to minimize reconstruction error.
 
-3. **Upscaling for Visualization: Low-resolution (7×7) images are resized to 28×28 by repeating each pixel in a 4×4 grid.**
+3. **Upscaling for Visualization**:
+ Low-resolution (7×7) images are resized to 28×28 by repeating each pixel in a 4×4 grid.
 
 ## Results
 - The reconstructed images closely match the ideal versions, demonstrating the model’s ability to remove noise and restore missing details.
