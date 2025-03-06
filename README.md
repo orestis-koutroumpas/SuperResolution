@@ -8,8 +8,8 @@ In this problem, we reconstruct high-resolution images from noisy, low-resolutio
 ## Data Description
 - **Xi** (784×4): Four ideal digit '8' images in vector form (28×28). These are used only for validation.
 - **Xn** (49×4): Low-resolution and noisy versions of Xi, obtained by:
-- - Reducing resolution (dividing 28×28 into 7×7 by averaging 4×4 pixel blocks).
-- - Adding Gaussian noise with unknown variance.
+   - Reducing resolution (dividing 28×28 into 7×7 by averaging 4×4 pixel blocks).
+   - Adding Gaussian noise with unknown variance.
 
 
 ## Methodology
