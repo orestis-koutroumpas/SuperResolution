@@ -27,7 +27,7 @@ In this problem, we reconstruct high-resolution images from noisy, low-resolutio
 - The reconstructed images closely match the ideal versions, demonstrating the model’s ability to remove noise and restore missing details.
 - The cost function plot shows how gradient descent improves reconstruction quality over iterations.
 
-### Example Output
+### Output
 
 #### Cost Function vs. Iteration
 
@@ -40,3 +40,14 @@ In this problem, we reconstruct high-resolution images from noisy, low-resolutio
 - **Left**: Ideal image (**Xi**)
 - **Middle**: Noisy low-resolution input (**Xn**)
 - **Right**: Reconstructed image
+
+## Installation and Setup
+
+### 1. Clone the repository:
+```git clone https://github.com/yourusername/Problem-2.1-Generative-Model.git```
+
+### 2. Install dependencies:
+```pip install numpy scipy matplotlib```
+
+### 3. Run the script:
+```python gan.py```
