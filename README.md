@@ -17,8 +17,8 @@ In this problem, we reconstruct high-resolution images from noisy, low-resolutio
 1. **Transformation Matrix (T)**: The degradation process is modeled as a linear transformation **Xn = T Xi + noise**, where **T (49×784)** maps high-resolution images to low-resolution ones.
 
 2. **Neural Network-Based Reconstruction:**
-    - A pre-trained generative model is used to approximate the high-resolution input Xi.
-    - Gradient Descent optimizes a latent variable Z to minimize reconstruction error.
+    - A pre-trained generative model is used to approximate the high-resolution input **Xi**.
+    - Gradient Descent optimizes input **Z** to minimize reconstruction error.
 
 3. **Upscaling for Visualization**:
  Low-resolution (7×7) images are resized to 28×28 by repeating each pixel in a 4×4 grid.
